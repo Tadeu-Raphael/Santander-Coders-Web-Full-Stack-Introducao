@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Bungee', cursive;
+    font-size: 18px;
+}
+
+article {
+    width: 700px;
+    text-align: center;
+    background-color: #68b04d;
+    border-radius: 10px;
+    margin: 50px auto 20px;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px #ccc; 
+}
+
+article h2 {
+    padding: 10px;
+    color: #fff;
+}
+
+article .count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 5px;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
